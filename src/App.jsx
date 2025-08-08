@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='w-full overflow-hidden'>
+    <div className='w-full overflow-hidden dark:bg-gray-950 dark:text-gray-100'>
       <ToastContainer/>
       <Header/>
       <About/>
